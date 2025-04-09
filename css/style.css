@@ -1,4 +1,6 @@
 @import './reset.css';
+@import './fonts.css';
+@import './common.css';
 
 @import './components/main.css';
 @import './sections/main.css';
