@@ -4,21 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Heizuke List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container">
       <header class="header" id="header">
         <a href="#" class="logo">heizukelist</a>
-          <div class="nav">
-            <ul class="list">
-              <li class="item"><a href="#releas">Releas</a></li>
-              <li class="item"><a href="#about">About</a></li>
-              <li class="item"><a href="#list">Anime</a></li>
-              <li class="item"><a href="#contacts">Contacts</a></li>
-            </ul>
-          </div>
+        <div class="nav">
+          <ul class="list">
+            <li class="item"><a href="#release">Release</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#list">Anime</a></li>
+            <li class="item"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
       </header>
+
+      <main>
+        <section class="swiper-release">
+          <div class="swiper-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="./js/swiper.js"></script>
   </body>
 </html>
