@@ -1,0 +1,4 @@
+.swiper-slide:nth-child(1) {
+  background: center / cover no-repeat
+    url("/img/releases/fate_strange_fake.jpg");
+}

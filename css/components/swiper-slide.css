@@ -1,0 +1,81 @@
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: blanchedalmond;
+}
+
+.swiper-slide > .slide-description {
+  --p: 300px; /* control the shape (can be percentage) */
+  width: 900px;
+  height: 100%;
+  aspect-ratio: 1;
+  clip-path: polygon(0 0, calc(100% - var(--p)) 0, 100% 100%, 0 100%);
+  background: #090b0d;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 11, 13, 1) 0%,
+    rgba(92, 34, 34, 1) 50%,
+    rgba(112, 13, 13, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 50px;
+  padding: 0 60px;
+}
+
+.swiper-slide .title {
+  max-width: 600px;
+  font-size: 6rem;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.swiper-slide .description {
+  max-width: 700px;
+  line-height: 1.9;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  text-wrap: balance;
+}
+
+.swiper-slide .description::after {
+  content: "...";
+  margin-left: -4px;
+}
+
+.swiper-slide .button {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  background: #b22222;
+  background: linear-gradient(
+    90deg,
+    rgba(178, 34, 34, 1) 0%,
+    rgba(150, 77, 77, 1) 50%,
+    rgba(212, 116, 116, 1) 100%
+  );
+  border-radius: 15px;
+  margin: 50px 125px 0 0;
+  padding: 5px 0px;
+  transition: all 0.2s ease-out;
+}
+
+.swiper-slide .button:hover {
+  scale: 1.1;
+  box-shadow: rgba(224, 224, 224, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.swiper-slide .button a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 1.5em;
+}
