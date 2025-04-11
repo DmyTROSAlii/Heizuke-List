@@ -3,12 +3,65 @@
     url("/img/releases/fate_strange_fake.jpg");
 }
 
+.swiper-slide.fate-strage-fake > .slide-description {
+  background: #090b0d;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 11, 13, 1) 0%,
+    rgba(92, 34, 34, 1) 50%,
+    rgba(112, 13, 13, 1) 100%
+  );
+}
+
+.swiper-slide.fate-strage-fake .button {
+  background: #b22222;
+  background: linear-gradient(
+    90deg,
+    rgba(178, 34, 34, 1) 0%,
+    rgba(150, 77, 77, 1) 50%,
+    rgba(212, 116, 116, 1) 100%
+  );
+}
+
 .swiper-slide.chainsaw-man-2 {
-  background: center / cover no-repeat
-    url("/img/releases/chainsaw_man.png");
+  background: center / cover no-repeat url("/img/releases/chainsaw_man.png");
+}
+
+.swiper-slide.chainsaw-man-2 > .slide-description {
+  background: #403011;
+  background: linear-gradient(
+    90deg,
+    rgba(64, 48, 17, 1) 0%,
+    rgba(102, 87, 58, 1) 50%,
+    rgba(158, 145, 125, 1) 100%
+  );
+}
+
+.swiper-slide.chainsaw-man-2 .button {
+  background: #7d6738;
+  background: linear-gradient(
+    90deg,
+    rgba(125, 103, 56, 1) 0%,
+    rgba(166, 142, 94, 1) 50%,
+    rgba(230, 202, 151, 1) 100%
+  );
 }
 
 .swiper-slide.begin-after-end {
-  background: center / cover no-repeat
-    url("/img/releases/begin-after-end.png");
+  background: center / cover no-repeat url("/img/releases/begin-after-end.png");
+}
+
+.swiper-slide.begin-after-end > .slide-description {
+  background: #2e1f14;
+  background: linear-gradient(
+    90deg,
+    rgba(46, 31, 20, 1) 0%,
+    rgba(150, 87, 27, 1) 35%,
+    rgba(242, 152, 68, 1) 100%
+  );
+}
+
+.swiper-slide.begin-after-end .button {
+background: #6e3f02;
+background: linear-gradient(90deg, rgba(110, 63, 2, 1) 0%, rgba(176, 118, 42, 1) 50%, rgba(237, 196, 142, 1) 100%);
 }

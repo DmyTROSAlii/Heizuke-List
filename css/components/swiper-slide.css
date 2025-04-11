@@ -13,13 +13,6 @@
   height: 100%;
   aspect-ratio: 1;
   clip-path: polygon(0 0, calc(100% - var(--p)) 0, 100% 100%, 0 100%);
-  background: #090b0d;
-  background: linear-gradient(
-    90deg,
-    rgba(9, 11, 13, 1) 0%,
-    rgba(92, 34, 34, 1) 50%,
-    rgba(112, 13, 13, 1) 100%
-  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +22,7 @@
 
 .swiper-slide .title {
   max-width: 600px;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 600;
   font-style: normal;
   font-family: "Ubuntu Condensed", sans-serif;
@@ -53,13 +46,6 @@
   height: 50px;
   text-align: center;
   align-self: center;
-  background: #b22222;
-  background: linear-gradient(
-    90deg,
-    rgba(178, 34, 34, 1) 0%,
-    rgba(150, 77, 77, 1) 50%,
-    rgba(212, 116, 116, 1) 100%
-  );
   border-radius: 15px;
   margin: 50px 125px 0 0;
   padding: 5px 0px;
