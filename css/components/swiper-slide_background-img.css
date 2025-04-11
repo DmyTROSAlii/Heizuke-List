@@ -1,4 +1,14 @@
-.swiper-slide:nth-child(1) {
+.swiper-slide.fate-strage-fake {
   background: center / cover no-repeat
     url("/img/releases/fate_strange_fake.jpg");
+}
+
+.swiper-slide.chainsaw-man-2 {
+  background: center / cover no-repeat
+    url("/img/releases/chainsaw_man.png");
+}
+
+.swiper-slide.begin-after-end {
+  background: center / cover no-repeat
+    url("/img/releases/begin-after-end.png");
 }
