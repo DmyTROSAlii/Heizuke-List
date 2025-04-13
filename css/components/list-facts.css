@@ -1,0 +1,9 @@
+.list-facts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 50px;
+  max-width: 1440px;
+  padding: 0;
+  margin: 0 auto;
+}

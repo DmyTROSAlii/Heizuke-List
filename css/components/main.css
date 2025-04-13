@@ -1,4 +1,8 @@
 @import './nav.css';
+
 @import './swiper.css';
 @import './swiper-slide.css';
 @import './swiper-slide_background-img.css';
+
+@import './list-facts.css';
+@import './item-fact.css';
