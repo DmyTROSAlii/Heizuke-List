@@ -2,3 +2,11 @@
   width: 100%;
   height: 100%;
 }
+
+.swiper :is(.swiper-button-next, .swiper-button-prev, ) {
+  color: red;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: red;
+}
