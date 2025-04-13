@@ -5,10 +5,11 @@
   width: 100%;
   height: 5rem;
   text-transform: uppercase;
-  background-color: rgba(100% 100% 100% 0.7);
+  background-color: rgba(17, 17, 17, 0.7);
   position: sticky;
   top: 0;
-  backdrop-filter: blur(30pdx);
+  backdrop-filter: blur(30px);
+  z-index: 2;
 }
 
 .header > .logo {
