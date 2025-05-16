@@ -1,0 +1,34 @@
+.item-top.fate {
+  background: center / cover no-repeat
+    url("/img/top/fate.jpg");
+}
+
+.item-top.code-geas {
+  background: center / cover no-repeat
+    url("/img/top/code-geas.jpg");
+}
+
+.item-top.sao {
+  background: center / cover no-repeat
+    url("/img/top/sao.jpg");
+}
+
+.item-top.eighty-six {
+  background: center / cover no-repeat
+    url("/img/top/eighty-six.jpg");
+}
+
+.item-top.friren {
+  background: center / cover no-repeat
+    url("/img/top/friren.jpeg");
+}
+
+.item-top.fullmetal-achemist {
+  background: center / cover no-repeat
+    url("/img/top/fullmetal-achemist.jpg");
+}
+
+.item-top.attack-on-titan {
+  background: center / cover no-repeat
+    url("/img/top/attack-on-titan.png");
+}

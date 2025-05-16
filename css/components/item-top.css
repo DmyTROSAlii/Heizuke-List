@@ -1,0 +1,12 @@
+.item-top {
+  height: 100%;
+  flex: 0 0 10%;
+}
+
+/* .item-top .title {
+  transform: rotate(270deg);
+} */
+
+ .item-top:nth-child(7) {
+  flex: 1 10%;
+ }
