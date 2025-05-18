@@ -1,12 +1,9 @@
 .item-top {
+  position: relative;
   height: 100%;
   flex: 0 0 10%;
   transition: 0.4s ease;
 }
-
-/* .item-top .title {
-  transform: rotate(270deg);
-} */
 
 .item-top.active {
   flex: 1 10%;
@@ -14,19 +11,35 @@
 
 .item-top:not(.active) {
   cursor: pointer;
-  position: relative;
-  /* display: flex;
-  justify-content: end;
-  align-items: end; */
 }
 
-.item-top:not(.active) .title {
+.item-top:not(.active)::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.item-top .title {
   width: 800px;
   position: absolute;
-  left: -250px;
-  bottom: 380px;
-  font-size: 3em;
+  left: -240px;
+  bottom: 390px;
+  font-size: 2em;
   color: #fff;
   transform: rotate(270deg);
   text-align: left;
+  z-index: 2;
+  transition: all 0.4s ease;
+}
+
+.item-top.active .title {
+  font-size: 3em;
+  left: 320px;
+  bottom: 380px;
 }
