@@ -14,4 +14,19 @@
 
 .item-top:not(.active) {
   cursor: pointer;
+  position: relative;
+  /* display: flex;
+  justify-content: end;
+  align-items: end; */
+}
+
+.item-top:not(.active) .title {
+  width: 800px;
+  position: absolute;
+  left: -250px;
+  bottom: 380px;
+  font-size: 3em;
+  color: #fff;
+  transform: rotate(270deg);
+  text-align: left;
 }
