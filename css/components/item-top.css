@@ -9,11 +9,7 @@
   flex: 1 10%;
 }
 
-.item-top:not(.active) {
-  cursor: pointer;
-}
-
-.item-top:not(.active)::after {
+.item-top::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -25,13 +21,22 @@
   pointer-events: none;
 }
 
+.item-top.active::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.item-top:not(.active) {
+  cursor: pointer;
+}
+
 .item-top .title {
   width: 800px;
   position: absolute;
+  font-size: 2em;
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #fff;
   left: -240px;
   bottom: 390px;
-  font-size: 2em;
-  color: #fff;
   transform: rotate(270deg);
   text-align: left;
   z-index: 2;
