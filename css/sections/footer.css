@@ -5,6 +5,10 @@
   font-family: "Ubuntu Condensed", sans-serif;
   padding: 20px;
   text-align: center;
+  background-image: url('/img/footer/zero-two.png'), url('/img/footer/beyong.png');
+  background-repeat: no-repeat;
+  background-size: auto 200px;
+  background-position: left, right 200px;
 }
 
 .footer .title {
