@@ -14,8 +14,17 @@
 }
 
 .footer .github-link {
-  color: #fff;
   font-weight: 500;
+  background-image: linear-gradient(#ffffff 50%, #a02111 50%);
+  background-size: 100% 200%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 550ms ease-in-out;
+}
+
+.footer .github-link:hover {
+  background-position: 0% 100%;
 }
 
 .footer .copyright {
