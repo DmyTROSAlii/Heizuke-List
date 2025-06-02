@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Ubuntu Condensed", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .title {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer .github-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer .copyright {
+  margin-top: 30px;
+}
