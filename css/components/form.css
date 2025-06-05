@@ -1,0 +1,47 @@
+.form-group {
+  position: absolute;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group .inputBx {
+  position: relative;
+  width: 100%;
+}
+
+.form-group .inputBx input,
+.form-group .inputBx textarea {
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  font-size: 1.2em;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-group .inputBx textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+.form-group .inputBx input[type="submit"] {
+  width: 100%;
+  background: #0078ff;
+  background: linear-gradient(45deg, #ff357a, #fff172);
+  border: none;
+  cursor: pointer;
+}
+
+.form-group .inputBx input::placeholder,
+.form-group .inputBx textarea::placeholder {
+  color: #adadad;
+}
