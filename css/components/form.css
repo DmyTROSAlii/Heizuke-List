@@ -36,9 +36,14 @@
 .form-group .inputBx input[type="submit"] {
   width: 100%;
   background: #0078ff;
-  background: linear-gradient(45deg, #ff357a, #fff172);
+  background: linear-gradient(45deg, #940101, #9c3838);
   border: none;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-group .inputBx input[type="submit"]:hover {
+  transform: scale(1.1);
 }
 
 .form-group .inputBx input::placeholder,
