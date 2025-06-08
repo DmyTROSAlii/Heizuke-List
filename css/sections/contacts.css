@@ -1,7 +1,32 @@
 .contacts {
-  min-height: 700px;
+  min-height: 850px;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px auto;
+}
+
+.contacts-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts .text-block {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contacts .title {
+  font-size: 4em;
+  font-weight: 600;
+  margin: 50px 0 30px;
+}
+
+.contacts .text-block p {
+  font-size: 1.8em;
+  line-height: 1.5em;
 }
