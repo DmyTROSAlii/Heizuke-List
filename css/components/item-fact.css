@@ -1,7 +1,7 @@
 .item-fact {
   display: inline-block;
   flex: 0 0 calc(33.33% - 50px);
-  height: 500px;
+  height: 31.25rem;
   padding: 50px 35px;
   border-radius: 50px;
   background-color: rgb(32, 32, 32);
@@ -11,7 +11,7 @@
 .item-fact img {
   width: 300px;
   height: 250px;
-  object-fit:contain;
+  object-fit: contain;
   margin: 0 auto 50px;
 }
 
@@ -23,4 +23,35 @@
 .item-fact .fact-desc span {
   color: #fff;
   font-weight: 800;
+}
+
+@media (max-width: 1440px) {
+  .item-fact {
+    flex: 0 0 calc(50% - 50px);
+    height: 21.875rem;
+    padding: 30px 20px;
+  }
+
+  .item-fact img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+
+  .item-fact .fact-desc {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-fact {
+    flex: 0 0 100%;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-fact .fact-desc {
+    font-size: 0.7em;
+  }
 }

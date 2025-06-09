@@ -24,3 +24,13 @@
   color: #fff;
   margin-bottom: 40px;
 }
+
+@media (max-width: 1440px) {
+  .about {
+    height: 1220px;
+  }
+
+  .about .title {
+    font-size: 4em;
+  }
+}
