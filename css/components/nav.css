@@ -76,3 +76,9 @@
     height: 105vh;
   }
 }
+
+@media (max-width: 425px) {
+  .nav > #nav-check:checked ~ .list {
+    height: 200vh;
+  }
+}
