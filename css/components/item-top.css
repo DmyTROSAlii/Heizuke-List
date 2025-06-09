@@ -9,27 +9,6 @@
   flex: 1 10%;
 }
 
-.item-top .desc {
-  display: none;
-  position: absolute;
-  width: 500px;
-  height: auto;
-  font-size: 1.2em;
-  left: 50%;
-  bottom: 80px;
-  padding: 20px 15px;
-  border-radius: 30px;
-  color: #f9f9f9;
-  backdrop-filter: blur(70px) saturate(150%);
-  -webkit-backdrop-filter: blur(12px) saturate(140%);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-  transform: translateX(-50%);
-}
-
-.item-top.active .desc {
-  display: block;
-}
-
 .item-top::after {
   content: "";
   width: 100%;
@@ -51,21 +30,71 @@
 }
 
 .item-top .title {
-  width: 800px;
   position: absolute;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-orientation: mixed;
+  right: 0;
+  bottom: 5px;
+  white-space: nowrap;
   font-size: 2em;
-  font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
-  left: -240px;
-  bottom: 390px;
-  transform: rotate(270deg);
-  text-align: left;
+  font-family: "Ubuntu Condensed", sans-serif;
   z-index: 2;
   transition: all 0.4s ease;
+  overflow: hidden;
 }
 
 .item-top.active .title {
   font-size: 3em;
-  left: 320px;
-  bottom: 380px;
+}
+
+.item-top .desc {
+  display: none;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  font-size: 1.2em;
+  left: 50%;
+  bottom: 80px;
+  padding: 20px 15px;
+  border-radius: 30px;
+  color: #f9f9f9;
+  backdrop-filter: blur(70px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  transform: translateX(-50%);
+}
+
+.item-top.active .desc {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .item-top .title {
+    writing-mode: horizontal-tb;
+    transform: none;
+    right: 20px;
+    bottom: 0;
+    text-align: right;
+  }
+
+  .item-top .desc {
+    font-size: 0.9em;
+    bottom: 50px;
+    padding: 20px 15px;
+    background-color: #f9f9f9;
+    opacity: 0.7;
+    color: #000;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-top .title {
+    font-size: 1.3em;
+  }
+
+  .item-top.active .title {
+    font-size: 1.8em;
+  }
 }

@@ -4,3 +4,9 @@
   height: 100%;
   padding: 0;
 }
+
+@media (max-width: 1024px) {
+  .list-top {
+    flex-direction: column;
+  }
+}
