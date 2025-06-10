@@ -34,3 +34,9 @@
     font-size: 4em;
   }
 }
+
+@media (max-width: 768px) {
+  .about {
+    height: 1440px;
+  }
+}
