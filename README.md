@@ -6,15 +6,15 @@
 
 <h2 id="overview">Table of Contents 📝</h2>
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Project Structure](#project-structure)
-- [Author](#author)
-- [License](#license)
+- [Overview](#overview-)
+- [Features](#features-)
+- [Technologies](#technologies-)
+- [Installation](#installation-)
+- [Usage](#usage-)
+- [Examples](#examples-)
+- [Project Structure](#project-structure-)
+- [Author](#author-)
+- [License](#license-)
 
 ---
 
