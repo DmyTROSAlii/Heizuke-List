@@ -91,10 +91,10 @@
 
 @media (max-width: 768px) {
   .item-top .title {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .item-top.active .title {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 }
