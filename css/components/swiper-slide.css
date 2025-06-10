@@ -36,6 +36,7 @@
 }
 
 .swiper-slide .description::after {
+  content: "...";
   margin-left: -4px;
 }
 
