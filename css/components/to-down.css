@@ -31,3 +31,15 @@
     transform: translateY(-120%);
   }
 }
+
+@media (max-width: 1440px) {
+  .to-down {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .to-down {
+    display: none;
+  }
+}

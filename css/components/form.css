@@ -50,3 +50,16 @@
 .form-group .inputBx textarea::placeholder {
   color: #adadad;
 }
+
+@media (max-width: 768px) {
+  .form-group {
+    width: 80vw;
+  }
+
+  .form-group .inputBx input,
+  .form-group .inputBx textarea,
+  .form-group .inputBx input[type="submit"] {
+    width: calc(100% - 40px);
+    font-size: 1em;
+  }
+}

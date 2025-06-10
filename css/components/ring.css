@@ -52,3 +52,15 @@
     transform: rotate(0deg);
   }
 }
+
+@media (max-width: 768px) {
+  .ring {
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  .ring i {
+    display: none;
+    border-width: 1px;
+  }
+}
