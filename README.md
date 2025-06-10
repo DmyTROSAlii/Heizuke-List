@@ -18,13 +18,13 @@
 
 ---
 
-## Overview 📝
+##Overview 📝
 
 **Heizuke-List** is a personal selection of anime with short descriptions, interactive lists, and a release slider. The site is fully static, requires no backend, and is perfect for discovering top anime recommendations.
 
 ---
 
-## Features ⚙️
+##Features ⚙️
 
 - **Release slider** (Swiper.js) with navigation and autoplay.
 - **Fact list** about the site and image sources.
@@ -37,7 +37,7 @@
 
 ---
 
-## Technologies 🛠️
+##Technologies 🛠️
 
 - **HTML5**
 - **CSS3** 
@@ -47,7 +47,7 @@
 
 ---
 
-## Installation 🚀
+##Installation 🚀
 
 1. **Clone the repository:**
    ```sh
@@ -59,7 +59,7 @@
 
 ---
 
-## Usage ▶️
+##Usage ▶️
 
 - Navigate between sections using the menu.
 - Browse releases in the slider.
@@ -68,7 +68,7 @@
 
 ---
 
-## Examples 💡
+##Examples 💡
 
 - **Release slider:**
   ![Release slider](./img/releases/fate_strange_fake.jpg)
@@ -79,7 +79,7 @@
 
 ---
 
-## Project Structure 📚
+##Project Structure 📚
 
 ```
 index.html
@@ -96,6 +96,6 @@ js/
 
 ---
 
-## 📄 License
+##License 📄
 
 All rights reserved © 2025
