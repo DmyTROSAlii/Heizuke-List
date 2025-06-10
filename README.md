@@ -71,11 +71,11 @@
 ##Examples 💡
 
 - **Release slider:**
-  ![Release slider](./img/releases/fate_strange_fake.jpg)
+  ![Release slider](./img/preview/preview-section.png)
 - **Top anime:**
-  ![Top anime](./img/top/fate.jpg)
+  ![Top anime](./img/preview/list-section.png)
 - **Contact form:**
-  ![Contact form](./img/about/muichiro.png)
+  ![Contact form](./img/preview/contact-section.png)
 
 ---
 
