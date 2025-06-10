@@ -1,10 +1,10 @@
-# Heizuke-List
+<h2 id="overview">Heizuke-List 📝</h2>
 
 > **Heizuke-List** is a small curated website featuring the best anime series I recommend everyone to watch. The project offers a modern design, responsive layout, and interactive features.
 
 ---
 
-## Table of Contents 📑
+<h2 id="overview">Table of Contents 📝</h2>
 
 - [Overview](#overview)
 - [Features](#features)
@@ -18,13 +18,13 @@
 
 ---
 
-## Overview 📝
+<h2 id="overview">Overview 📝</h2>
 
 **Heizuke-List** is a personal selection of anime with short descriptions, interactive lists, and a release slider. The site is fully static, requires no backend, and is perfect for discovering top anime recommendations.
 
 ---
 
-## Features ⚙️
+<h2 id="overview">Features ⚙️</h2>
 
 - **Release slider** (Swiper.js) with navigation and autoplay.
 - **Fact list** about the site and image sources.
@@ -37,7 +37,7 @@
 
 ---
 
-## Technologies 🛠️
+<h2 id="overview">Technologies 🛠️</h2>
 
 - **HTML5**
 - **CSS3** 
@@ -47,7 +47,7 @@
 
 ---
 
-## Installation 🚀
+<h2 id="overview">Installation 🚀</h2>
 
 1. **Clone the repository:**
    ```sh
@@ -59,7 +59,7 @@
 
 ---
 
-## Usage ▶️
+<h2 id="overview">Usage ▶️</h2>
 
 - Navigate between sections using the menu.
 - Browse releases in the slider.
@@ -68,7 +68,7 @@
 
 ---
 
-## Examples 💡
+<h2 id="overview">Examples 💡</h2>
 
 - **Release slider:**
   ![Release slider](./img/preview/preview-section.png)
@@ -79,7 +79,7 @@
 
 ---
 
-## Project Structure 📚
+<h2 id="overview">Project Structure 📚<h2>
 
 ```
 index.html
@@ -96,6 +96,6 @@ js/
 
 ---
 
-## License 📄
+<h2 id="overview">License 📄</h2>
 
 All rights reserved © 2025
