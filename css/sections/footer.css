@@ -5,7 +5,7 @@
   font-family: "Ubuntu Condensed", sans-serif;
   padding: 20px;
   text-align: center;
-  background-image: url('/img/footer/zero-two.png');
+  background-image: url("/img/footer/zero-two.png");
   background-repeat: no-repeat;
   background-size: auto 200px;
   background-position: left;
@@ -33,4 +33,22 @@
 
 .footer .copyright {
   margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer {
+    min-height: 350px;
+    background-position: bottom;
+    font-size: 1em;
+  }
+
+  .footer .title {
+    font-size: 1.2em;
+  }
 }
